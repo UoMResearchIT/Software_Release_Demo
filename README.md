@@ -79,9 +79,23 @@ the green 'Publish release' button at the bottom left of the page.
 
 ## Sharing your Code
 
+Github is a good platform for code development and sharing. But it is not an ideal platform for
+the storage of research code - where, unlike standard software, there is often a need to be able 
+to refer back to codes that were developed 5, 10, or even 20 years ago. For this requirement we
+need to look to data archiving services, such as FigShare or Zenodo, which will create permanent
+digitial archives with fixed digital object identifiers (DOI's) which will always point to the
+same code.
+
+
+
 ### Archiving
 
-**Zenodo instructions here**
+The easiest method to archive your code on Zenodo is to link your Zenodo and GitHub accounts 
+together. This can be done from the Zenodo 'My account' page. Once linked you can browse a 
+list of your repositories (warning: this will be long if you're a member of several organisations!),
+to find the repository you wish to archive. Toggle the switch for this repository, and then
+Zenodo will automatically archive any tagged release from that repository.
+![](fig/Zenodo_Github.png)
 
 ### Releasing
 
@@ -95,9 +109,28 @@ to your repository. This plain-text file provides others with information on how
 to cite your work. Github will also parse this file to provide users with an interface on
 your repository to access the citation information.
 
-**add instructions here**
+Creation of the `CITATION.cff` file is started in the same manner as the `LICENSE` file, clicking
+the 'Add file' button, and selecting 'Create new file'.
+![](fig/1-create_new_file.png)
 
-You can get more information on these files from [Rob Haines' blog post](https://research-it.manchester.ac.uk/news/2021/09/09/introducing-software-citation/)
+Once you are on the create new file page enter the filename `CITATION.cff`. At this point a panel
+describing citation files will appear at the top of the page - click the 'Insert example' button
+in that panel.
+![](fig/start_citation_file.png)
+
+Now edit the example file. You should start by adding your details, as well as those of any co-authors.
+Then change the version number to the one you created earlier, and add the DOI provided by Zenodo.
+Once you are happy with the details entered click the green 'Commit changes' button in the top right corner.
+![](fig/enter_citation_details.png)
+
+The presence of a `CITATION.cff` file in your repository adds a 'Cite this repository' menu in the panel
+on the right of your repository homepage. Clicking this option will review a dialog box, in which you can
+chose the format you want the citation (currently either APA or BibTeX), and copy the generated citation text.
+Or you can directly view the citation file.
+![](fig/accessing_the_citation.png)
+
+
+You can get more information on citation files from [Rob Haines' blog post](https://research-it.manchester.ac.uk/news/2021/09/09/introducing-software-citation/)
 and from the [Github documentation page](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files). 
 
 
