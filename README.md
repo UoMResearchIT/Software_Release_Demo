@@ -45,7 +45,26 @@ in releasing it.
 
 ## Versioning of your Code
 
-**add versioning guide here**
+To help end users of your code to document what they are using for their research,
+it is sensible to tag significant releases of your code. On GitHub, this creates a
+human-readable label for the selected commit, helping others to find it.
+
+### Semantic Versioning
+
+There are many different versioning methods. A popular one to consider is [Semantic Versioning](https://semver.org/),
+where a given version number uses the format MAJOR.MINOR.PATCH. When updating a 
+semantic version number you increment the:
+- MAJOR version when you make incompatible API changes
+- MINOR version when you add functionality in a backwards compatible manner
+- PATCH version when you make backwards compatible bug fixes
+You can also add a hyphen followed by characters to denote a pre-release version, e.g. 1.0.0-alpha1, or 1.2.3-beta4.
+
+### Tagging a Release in GitHub
+
+Instructions for tagging a release via the command line are given in the [Python Intermediate Development course](https://carpentries-incubator.github.io/python-intermediate-development/42-software-reuse/index.html#tagging-a-release-in-github).
+
+
+
 
 ## Sharing your Code
 
