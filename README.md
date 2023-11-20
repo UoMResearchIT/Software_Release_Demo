@@ -17,8 +17,15 @@ Without the certainty on usage that a license provides, many users won't touch y
 Usually we will wish to use an Open Source license - so that our code is a widely useable
 as possible. However there are a number of different open source licenses available,
 and your choice of which to use will determine how free end users are to modify, use, and 
-share your code. For details on these licenses visit [Choose a License](https://choosealicense.com).
+share your code. 
 
+The two main categories of open source license are:
+- **permissive**: designed to give maximum freedom to the end users of the software;
+- **copyleft**: allows a lot of freedom with the code, but all derivative works must also be released under the same license.
+
+For details on open-source licenses visit [Choose a License](https://choosealicense.com).
+
+### Creating a License File
 Github enables the fast addition of a license to a repository. To make use of this, 
 first you need to click the `Add file` option on the repository, and select `Create new file`.
 ![](fig/1-create_new_file.png)
