@@ -1,13 +1,13 @@
 # Software Release
 
 Before releasing software for general there are a number of common actions needed 
-to ensure that others know how to:
-- to use your code
-- which version they are using
-- how to access your code
-- how to cite your work
+to ensure that others know:
+1. how they can use your code ([licensing](#Licensing))
+2. which version they are using ([tagging](#Tagging))
+3. how to find and access your code ([archiving and sharing](#Sharing))
+4. how to cite your work ([citation](#Citation))
 
-## Document Code Use: Licensing
+## Document Code Use: Licensing<a name="Licensing"></a>
 
 Most developers know that they need to document the technical details of how to use their code.
 But many forget that they also need to document the social details of how their code can be used.
@@ -43,7 +43,7 @@ the `Commit changes` button, enter a commit message (e.g.: 'add license file'), 
 Once these is done your code will be properly licensed, and you will be ready to go onto the next stage 
 in releasing it.
 
-## Versioning of your Code
+## Versioning of your Code<a name="Tagging"></a>
 
 To help end users of your code to document what they are using for their research,
 it is sensible to tag significant releases of your code. On GitHub, this creates a
@@ -77,7 +77,7 @@ the green 'Publish release' button at the bottom left of the page.
 ![](fig/create_github_release_2.png)
 
 
-## Sharing your Code
+## Sharing your Code<a name="Sharing"></a>
 
 Github is a good platform for code development and sharing. But it is not an ideal platform for
 the storage of research code - where, unlike standard software, there is often a need to be able 
@@ -101,7 +101,7 @@ Zenodo will automatically archive any tagged release from that repository.
 
 **pip and conda packaging?**
 
-## Provide Citation for your Code
+## Provide Citation for your Code<a name="Citation"></a>
 
 End users of your code may wish to reference it in their publications. To help them with this,
 and to make sure that references to your work are consistent, you can add a `CITATION.cff` file
