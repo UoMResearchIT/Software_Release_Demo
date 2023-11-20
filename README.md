@@ -63,7 +63,18 @@ You can also add a hyphen followed by characters to denote a pre-release version
 
 Instructions for tagging a release via the command line are given in the [Python Intermediate Development course](https://carpentries-incubator.github.io/python-intermediate-development/42-software-reuse/index.html#tagging-a-release-in-github).
 
+To create a release from the GitHub website interface, first click the 'Create a new release' 
+option on the right of the repository webpage.
+![](fig/start_github_release.png)
 
+This opens the Releases dialog page. Click on the 'Choose a tag' button on the left of the page, 
+and enter your new tag number in the dialog box that this presents you.
+![](fig/create_github_release.png)
+
+The 'Choose a tag' button will be replaced with your tag number. Now add information about the release 
+to the release title and description dialog boxes. Once you are happy with the information added click
+the green 'Publish release' button at the bottom left of the page.
+![](fig/create_github_release_2.png)
 
 
 ## Sharing your Code
