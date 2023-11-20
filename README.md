@@ -56,19 +56,31 @@ To help end users of your code to document what they are using for their researc
 it is sensible to tag significant releases of your code. On GitHub, this creates a
 human-readable label for the selected commit, helping others to find it.
 
+There are many different ways to record the particular version of your code or software.
+The methods you chose will depend on what aspects of the changes in code you wish to capture.
+Traditionally most developers would focus on changes in the code, for which 
+[Semantic Versioning](https://semver.org/) is ideally suited. More recently, particulary for
+operating systems, developers have wished to give end users an indication of temporal progress, 
+for which [Calendar Versioning](https://calver.org/) is ideally suited. This latter method helps
+end users to understand the cadence of the software release cycle, but can obscure the significance
+of the changes between versions. Semantic versioning is more suited to our needs,
+and so we will use it here.
+
 ### Semantic Versioning
 
-There are many different versioning methods. A popular one to consider is [Semantic Versioning](https://semver.org/),
-where a given version number uses the format MAJOR.MINOR.PATCH. When updating a 
-semantic version number you increment the:
+Semantic version numbers use the format MAJOR.MINOR.PATCH. 
+When updating a semantic version number you increment the:
 - MAJOR version when you make incompatible API changes
 - MINOR version when you add functionality in a backwards compatible manner
 - PATCH version when you make backwards compatible bug fixes
+
 You can also add a hyphen followed by characters to denote a pre-release version, e.g. 1.0.0-alpha1, or 1.2.3-beta4.
 
 ### Tagging a Release in GitHub
 
+Version releases in Git repositories are made by creating a special branch (called a tag) in the repository.
 Instructions for tagging a release via the command line are given in the [Python Intermediate Development course](https://carpentries-incubator.github.io/python-intermediate-development/42-software-reuse/index.html#tagging-a-release-in-github).
+Here we will detail how the same can be done through the GitHub web interface.
 
 To create a release from the GitHub website interface, first click the 'Create a new release' 
 option on the right of the repository webpage.
