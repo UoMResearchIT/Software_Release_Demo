@@ -118,7 +118,14 @@ Zenodo will automatically archive any tagged release from that repository.
 
 ### Releasing
 
-**pip and conda packaging?**
+You can also release your software via packaging channels to help end-users in installing your software.
+For python code this can be done using `pip`, for which there are a range of tools, such as poetry.
+You can follow the SSI introduction to using this tool here: https://carpentries-incubator.github.io/python-intermediate-development/43-software-release/index.html
+
+For both python code, and other languages, you can use the `conda` system. There is a guide to
+using this system here: https://docs.conda.io/projects/conda-build/en/stable/user-guide/tutorials/building-conda-packages.html
+
+If you have any questions about these, you can also contact the RSE team for help.
 
 ## Provide Citation for your Code<a name="Citation"></a>
 
